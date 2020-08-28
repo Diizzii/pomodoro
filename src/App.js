@@ -119,6 +119,7 @@ class App extends Component{
       origMin: ""
     })
   }
+  
   breakDown() {
     audio = document.getElementById("beep");
     if (this.state.id==="Session") {
